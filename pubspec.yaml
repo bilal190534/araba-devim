@@ -47,29 +47,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
-    - assets/audi/
-    - assets/bmw/
-    - assets/citroen/
-    - assets/dacia/
-    - assets/fiat/
-    - assets/ford/
-    - assets/honda/
-    - assets/hyundai/
-    - assets/jeep/
-    - assets/kia/
-    - assets/mercedes/
-    - assets/mini/
-    - assets/mitsubishi/
-    - assets/nissan/
-    - assets/opel/
-    - assets/peugeot/
-    - assets/renault/
-    - assets/seat/
-    - assets/skoda/
-    - assets/suzuki/
-    - assets/toyota/
-    - assets/volkswagen/
-    - assets/volvo/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

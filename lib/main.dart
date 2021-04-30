@@ -974,14 +974,8 @@ class AudiSayfam extends StatelessWidget {
                 child: Stack(
                   alignment: Alignment.center,
                   children: [
-                    Ink.image(
-                      image: AssetImage(
-                        "assets/audi/audibanner.jpg",
-                      ),
-                      child: InkWell(),
-                      height: 200,
-                      fit: BoxFit.cover,
-                    ),
+                    Image.network(
+                        "https://i.pinimg.com/originals/55/55/c9/5555c9e5f0da6b3832ad1e76fae00b32.jpg"),
                     Text(
                       "AUDİ MODELLERİ",
                       style: TextStyle(
@@ -1004,9 +998,8 @@ class AudiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/audi/a3.jpg",
-                      ),
+                      image: NetworkImage(
+                          "https://staticb.yolcu360.com/blog/wp-content/uploads/2021/01/12142003/audi-a3-960x542.jpg"),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
                         onTap: () {},
@@ -1036,8 +1029,8 @@ class AudiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/audi/a4.jpg",
+                      image: NetworkImage(
+                        "https://cdn.motor1.com/images/mgl/PKV3K/s1/2020-audi-a4.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1068,8 +1061,8 @@ class AudiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/audi/a5.jpg",
+                      image: NetworkImage(
+                        "https://www.audi.com.tr/content/dam/nemo/models/a5/a5-sportback/my-2021/1920x1080-inline-media-gallery/1920x1080-audi-a5-sportback-rear-2021-light-191005_1.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1154,8 +1147,8 @@ class BmwSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/bmw/birserisi.jpg",
+                      image: NetworkImage(
+                        "https://lh3.googleusercontent.com/proxy/G8nzwmjEaWWFxdQ-hPH6bccvMmohktT2_axR-Dml4DU9U06eY1vBL5Cbee6ZK00VTp3ihOtyhSxUaX8EzZHQ8AXDxNafPE5pjLH9huyQRtFT03ukFqN-virKtGq8n8PFHmwVzsMG-RrIOgG-m9ic-gJpZb4",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1186,8 +1179,8 @@ class BmwSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/bmw/ikiserisi.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/3d_design_bmw_2_series_gran_coupe_2020-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1218,8 +1211,8 @@ class BmwSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/bmw/ucserisi.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/ac_schnitzer_bmw_3_series_sedan_m_sport_2019_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1275,8 +1268,8 @@ class CitroenSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/citroen/citroenbanner.jpg",
+                      image: NetworkImage(
+                        "https://img.drivemag.net/media/default/0001/63/2018-Citroen-C4-Cactus-facelift-0-9341-default-large.jpeg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -1304,8 +1297,8 @@ class CitroenSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/citroen/c3.jpg",
+                      image: NetworkImage(
+                        "https://cdn.motor1.com/images/mgl/WxevL/s1/citroen-c3-restylee-2020.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1336,8 +1329,8 @@ class CitroenSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/citroen/c4.jpg",
+                      image: NetworkImage(
+                        "https://shiftdelete.net/wp-content/uploads/2020/06/yeni-citroen-c4-3.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1368,8 +1361,8 @@ class CitroenSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/citroen/c5.jpg",
+                      image: NetworkImage(
+                        "https://images-na.ssl-images-amazon.com/images/I/91EJd5brG3L._AC_SX466_.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1425,8 +1418,8 @@ class DaciaSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/dacia/daciabanner.jpg",
+                      image: NetworkImage(
+                        "https://c4.wallpaperflare.com/wallpaper/925/460/16/vehicles-dacia-duster-car-dacia-suv-hd-wallpaper-preview.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -1486,8 +1479,8 @@ class DaciaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/dacia/daciasandero.jpg",
+                      image: NetworkImage(
+                        "https://i.pinimg.com/originals/8c/a6/b8/8ca6b81164f56116ab7212d7468f70e8.png",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1518,8 +1511,8 @@ class DaciaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/dacia/dacialogan.jpg",
+                      image: NetworkImage(
+                        "https://www.carpixel.net/w/789bce3c5ff361590b0581cf49a391b9/dacia-logan-wallpaper-hd-972.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1575,8 +1568,8 @@ class FiatSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/fiat/fiatbanner.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/31-7-2017/17610/thumb2-studio-fiat-argo-2018-cars-4k-hatchbacks.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -1604,8 +1597,8 @@ class FiatSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/fiat/egea.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/18-8-2019/101678/thumb2-fiat-egea-sport-4k-2019-cars-motion-blur-fiat-357.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1636,8 +1629,8 @@ class FiatSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/fiat/doblo.jpg",
+                      image: NetworkImage(
+                        "https://lh3.googleusercontent.com/proxy/qYH-Z8KGp30HslKa2_4NlGZ_k3GB6dMiIHNoBgJTI3jtQ3_ZMln759NdJkw1tY4btEg_9eeyadYshWF9ml98P6na3GaLOTFOSzfPQdn3_OfKe4UiUJ6yZU0Xi-cvCI1HEz5Pvlx-vAa_2PcIK-hpaYtakg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1668,8 +1661,8 @@ class FiatSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/fiat/punto.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/img/original/58648/fiat-punto-4k-2019-cars-compact-cars-new-punto.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1679,7 +1672,7 @@ class FiatSayfam extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                     Text(
-                      "Logan Modeli",
+                      "Punto Modeli",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
@@ -1725,8 +1718,8 @@ class FordSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/ford/fordbanner.jpg",
+                      image: NetworkImage(
+                        "https://i.pinimg.com/originals/3a/64/ab/3a64ab3c9fbce934102cfc62b81a2b4e.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -1754,8 +1747,8 @@ class FordSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/ford/focus.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/img/original/81007/4k-ford-focus-st-road-2019-cars-motion-blur.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1786,8 +1779,8 @@ class FordSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/ford/fiesta.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/2018_ford_fiesta_st_3_door_4k_2-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1819,7 +1812,7 @@ class FordSayfam extends StatelessWidget {
                   children: [
                     Ink.image(
                       image: AssetImage(
-                        "assets/ford/edge.jpg",
+                        "https://images.alphacoders.com/720/720335.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1875,8 +1868,8 @@ class HondaSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/honda/hondabanner.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/18-3-2020/125027/thumb2-honda-civic-type-r-4k-tuning-2020-cars-eu-spec.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -1904,8 +1897,8 @@ class HondaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/honda/civic.jpg",
+                      image: NetworkImage(
+                        "https://images8.alphacoders.com/451/thumb-1920-451741.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1936,8 +1929,8 @@ class HondaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/honda/jazz.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/17-3-2018/44533/thumb2-honda-jazz-sport-4k-2018-cars-road-motion-blur.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -1968,8 +1961,8 @@ class HondaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/honda/crv.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/2018_honda_cr_v_4k_3-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2025,8 +2018,8 @@ class HyundaiSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/hyundai/hyundaibanner.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/2019_hyundai_santa_fe_4k-HD.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -2054,8 +2047,8 @@ class HyundaiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/hyundai/i10.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/23-1-2020/119403/thumb2-4k-hyundai-i10-compact-cars-2020-cars-red-i10.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2086,8 +2079,8 @@ class HyundaiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/hyundai/i20.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/14-11-2020/144526/thumb2-2021-hyundai-i20-n-4k-front-view-exterior.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2118,8 +2111,8 @@ class HyundaiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/hyundai/accentblue.png",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/18-2-2018/41195/thumb2-hyundai-accent-2018-4k-new-blue-accent-sedan.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2175,8 +2168,8 @@ class JeepSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/jeep/jeepbanner.jpg",
+                      image: NetworkImage(
+                        "https://images5.alphacoders.com/106/1062574.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -2204,8 +2197,8 @@ class JeepSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/jeep/wrangler.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/19-12-2017/34092/thumb2-jeep-wrangler-rubicon-4k-2018-cars-new-wrangler-suvs.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2236,8 +2229,8 @@ class JeepSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/jeep/renegade.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/9-8-2019/100532/thumb2-jeep-renegade-trailhawk-4k-road-2019-cars-suvs.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2268,8 +2261,8 @@ class JeepSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/jeep/compass.jpg",
+                      image: NetworkImage(
+                        "https://wallpaperaccess.com/full/1614051.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2325,8 +2318,8 @@ class KiaSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/kia/kiabanner.jpg",
+                      image: NetworkImage(
+                        "https://i.pinimg.com/originals/73/ff/f3/73fff331b8be5eabf0c445378daee536.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -2354,8 +2347,8 @@ class KiaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/kia/rio.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/2018_kia_rio_gt_line_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2386,8 +2379,8 @@ class KiaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/kia/soul.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/12-1-2018/36993/thumb2-4k-kia-soul-2019-cars-crossovers-raceway.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2418,8 +2411,8 @@ class KiaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/kia/stonic.jpg",
+                      image: NetworkImage(
+                        "https://images5.alphacoders.com/881/thumb-1920-881121.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2475,8 +2468,8 @@ class MercedesSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mercedes/mercedesbanner.jpg",
+                      image: NetworkImage(
+                        "https://wallpapercave.com/wp/wp5441213.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -2504,8 +2497,8 @@ class MercedesSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mercedes/aserisi.jpg",
+                      image: NetworkImage(
+                        "https://images7.alphacoders.com/950/thumb-1920-950386.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2536,8 +2529,8 @@ class MercedesSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mercedes/bserisi.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/11-3-2019/82979/thumb2-mercedes-benz-b180-sport-4k-w247-2019-cars-road.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2568,8 +2561,8 @@ class MercedesSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mercedes/cserisi.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/2018_mercedes_amg_gt_c_edition_50_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2625,8 +2618,8 @@ class MiniSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mini/minibanner.jpg",
+                      image: NetworkImage(
+                        "https://images8.alphacoders.com/934/934789.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -2654,8 +2647,8 @@ class MiniSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mini/cooper.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/mini_cooper_s_2018_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2686,8 +2679,8 @@ class MiniSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mini/cooper_s.jpg",
+                      image: NetworkImage(
+                        "https://images.hdqwalls.com/wallpapers/2018-mini-cooper-s-4k-c4.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2775,8 +2768,8 @@ class MitsubishiSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mitsubishi/mitsubishibanner.jpg",
+                      image: NetworkImage(
+                        "https://i.pinimg.com/originals/17/12/d7/1712d7cc75c8ea08ab9949ae257c8363.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -2804,8 +2797,8 @@ class MitsubishiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mitsubishi/lancer.jpg",
+                      image: NetworkImage(
+                        "https://images2.alphacoders.com/685/685648.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2836,8 +2829,8 @@ class MitsubishiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mitsubishi/l200.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/mitsubishi_l200_triton_sport_hpe_s_2020_5k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2868,8 +2861,8 @@ class MitsubishiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/mitsubishi/spacestar.jpg",
+                      image: NetworkImage(
+                        "https://www.mitsubishi-motors.com.tr/uploads/photo-2020-04-08-14-10-40.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2925,8 +2918,8 @@ class NissanSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/nissan/nissanbanner.jpg",
+                      image: NetworkImage(
+                        "https://i.pinimg.com/originals/a4/0f/78/a40f7848d1cc1e839f3940873a4b1788.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -2954,8 +2947,8 @@ class NissanSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/nissan/micra.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/29-6-2019/98274/thumb2-nissan-micra-4k-k14-motion-blur-2019-cars.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -2986,8 +2979,8 @@ class NissanSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/nissan/navara.jpg",
+                      image: NetworkImage(
+                        "https://images5.alphacoders.com/951/thumb-1920-951551.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3018,8 +3011,8 @@ class NissanSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/nissan/qashqai.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/13-6-2019/94988/thumb2-nissan-qashqai-4k-motion-blur-2019-cars-crossovers.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3075,8 +3068,8 @@ class OpelSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/opel/opelbanner.jpg",
+                      image: NetworkImage(
+                        "https://wallpapersplanet.net/sites/default/files/opel-wallpapers-34729-7508545.png",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -3104,8 +3097,8 @@ class OpelSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/opel/astra.jpg",
+                      image: NetworkImage(
+                        "https://images3.alphacoders.com/771/771384.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3136,8 +3129,8 @@ class OpelSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/opel/corsa.jpg",
+                      image: NetworkImage(
+                        "https://p4.wallpaperbetter.com/wallpaper/447/178/442/opel-corsa-vxr-4k-pc-full-hd-wallpaper-preview.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3168,8 +3161,8 @@ class OpelSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/opel/insignia.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/6-12-2019/114254/opel-insignia-grand-sport-4k-2020-cars-luxury-cars-blue-insignia.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3225,8 +3218,8 @@ class PeugeotSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/peugeot/peugeot.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/22-6-2020/136822/thumb2-peugeot-508-4k-tuning-road-2020-cars.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -3254,8 +3247,8 @@ class PeugeotSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/peugeot/partner.jpg",
+                      image: NetworkImage(
+                        "https://img.favcars.com/peugeot/partner/images_peugeot_partner_2002_1.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3286,8 +3279,8 @@ class PeugeotSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/peugeot/ikiyüzsekiz.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/7-4-2020/127780/thumb2-peugeot-208-gt-line-4k-hdr-2020-cars-uk-spec.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3318,8 +3311,8 @@ class PeugeotSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/peugeot/ücyüzbir.jpg",
+                      image: NetworkImage(
+                        "https://lh3.googleusercontent.com/proxy/-zsDVx_9pfydQ0_Plkli9boF38ZV7erHKXAYkLNdso8YLrOouZ8B-ZGcm5g38vgA1Q_EnBdt3fIEFXr1jQ63cP8xcCe4vZv9F1o2TEsd6r2nMBTUpX7kFNktGzoQ76AHNzMkQ5kzKw",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3375,8 +3368,8 @@ class RenaultSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/renault/renaultbanner.jpg",
+                      image: NetworkImage(
+                        "https://wallpaperaccess.com/full/1271163.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -3404,8 +3397,8 @@ class RenaultSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/renault/clio.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/16-11-2019/111881/thumb2-renault-clio-4k-motion-blur-2019-cars-red-clio.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3436,8 +3429,8 @@ class RenaultSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/renault/megane.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/renault_megane_rs_280_cup_2018_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3468,8 +3461,8 @@ class RenaultSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/renault/talisman.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/renault_talisman_2015-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3525,8 +3518,8 @@ class SeatSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/seat/seatbanner.jpg",
+                      image: NetworkImage(
+                        "https://p4.wallpaperbetter.com/wallpaper/459/340/856/seat-seat-leon-black-car-car-compact-car-hd-wallpaper-preview.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -3554,8 +3547,8 @@ class SeatSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/seat/ibiza.jpg",
+                      image: NetworkImage(
+                        "https://c4.wallpaperflare.com/wallpaper/301/422/468/ibiza-seat-ibiza-seat-wallpaper-preview.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3586,8 +3579,8 @@ class SeatSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/seat/leon.jpg",
+                      image: NetworkImage(
+                        "https://wallpapercave.com/wp/wp2290456.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3618,8 +3611,8 @@ class SeatSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/seat/tarraco.jpg",
+                      image: NetworkImage(
+                        "https://lh3.googleusercontent.com/proxy/lWa4pLzqQUlDAmgRTDE2vfy8LbaA7GNtHDv1ijzF5e-mlZRJOR9s3-DeqOsR-teRwc4Dw1r_f-STIqOX5u20vFuJt81BKi7UHlS1fkBufVhzm-zNxvppI84VrUVBuiXjINaMZQxV1pS9eA",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3675,8 +3668,8 @@ class SkodaSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/skoda/skodabanner.jpg",
+                      image: NetworkImage(
+                        "https://wallpaperaccess.com/full/1268142.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -3704,8 +3697,8 @@ class SkodaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/skoda/fabia.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/18-11-2017/29223/thumb2-4k-skoda-fabia-road-2017-cars-hatchbacks.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3736,8 +3729,8 @@ class SkodaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/skoda/octavia.jpg",
+                      image: NetworkImage(
+                        "https://wallpaperaccess.com/full/5016007.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3768,8 +3761,8 @@ class SkodaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/skoda/superb.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/skoda_superb_combi_armoured_2018_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3825,8 +3818,8 @@ class SuzukiSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/suzuki/suzukibanner.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/img/original/128486/suzuki-vitara-hybrid-4k-road-2020-cars-crossovers.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -3854,8 +3847,8 @@ class SuzukiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/suzuki/baleno.jpg",
+                      image: NetworkImage(
+                        "https://wallpapercave.com/wp/wp3921668.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3886,8 +3879,8 @@ class SuzukiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/suzuki/swift.jpg",
+                      image: NetworkImage(
+                        "https://lh3.googleusercontent.com/proxy/uwiMl1aZonbomaDYSQpp59Wx7KTf0K9GOk_IkKf1tn-yF6gp-pGqjIo18WPJldfv4XidXtnqZOiOZi5WZMCsZTw_UrtZmW3bDa0OX9aG5y_IyBFVGYs35U80dW017k_e8Jw0qxzWn6VBBv4OHtG056DzQeVhX7BC2v2CKMovqcl7WUYURQ",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3918,8 +3911,8 @@ class SuzukiSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/suzuki/vitara.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/16-3-2019/83544/thumb2-suzuki-vitara-4k-street-2019-cars-crossovers.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -3975,8 +3968,8 @@ class ToyotaSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/toyota/toyotabanner.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/4-9-2018/64541/thumb2-toyota-corolla-hybrid-4k-back-view-2018-cars-new-corolla.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -4004,8 +3997,8 @@ class ToyotaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/toyota/corolla.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/toyota_super_street_corolla_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4036,8 +4029,8 @@ class ToyotaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/toyota/hilux.jpg",
+                      image: NetworkImage(
+                        "https://images2.alphacoders.com/450/thumb-1920-450546.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4068,8 +4061,8 @@ class ToyotaSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/toyota/yaris.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/toyota_yaris_hybrid_2020_4k_2-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4125,8 +4118,8 @@ class VolkswagenSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volkswagen/volkswagenbanner.jpg",
+                      image: NetworkImage(
+                        "https://wallpapercave.com/wp/wp2445931.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -4154,8 +4147,8 @@ class VolkswagenSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volkswagen/golf.jpg",
+                      image: NetworkImage(
+                        "https://images3.alphacoders.com/709/709730.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4186,8 +4179,8 @@ class VolkswagenSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volkswagen/passat.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/15-1-2018/37262/thumb2-4k-volkswagen-passat-b8-road-2018-cars.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4218,8 +4211,8 @@ class VolkswagenSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volkswagen/polo.jpg",
+                      image: NetworkImage(
+                        "https://www.hdcarwallpapers.com/walls/volkswagen_polo_gti_2018_4k-HD.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4275,8 +4268,8 @@ class VolvoSayfam extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volvo/volvobanner.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/27-9-2017/21854/thumb2-volvo-xc90-4k-2018-black-xc90-new-cars.jpg",
                       ),
                       child: InkWell(),
                       height: 200,
@@ -4304,8 +4297,8 @@ class VolvoSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volvo/sdoksan.jpg",
+                      image: NetworkImage(
+                        "https://images2.alphacoders.com/799/799597.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4336,8 +4329,8 @@ class VolvoSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volvo/xcaltmis.jpg",
+                      image: NetworkImage(
+                        "https://images6.alphacoders.com/878/878257.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
@@ -4368,8 +4361,8 @@ class VolvoSayfam extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage(
-                        "assets/volvo/xckirk.jpg",
+                      image: NetworkImage(
+                        "https://besthqwallpapers.com/Uploads/25-9-2017/21666/thumb2-4k-volvo-xc40-2018-cars-white-xc40-crossovers.jpg",
                       ),
                       colorFilter: ColorFilters.greyscale,
                       child: InkWell(
